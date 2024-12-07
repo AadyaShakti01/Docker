@@ -27,7 +27,7 @@ A Postgres database backed by a Docker volume  </br>
 A Node.js web app which shows the results of the voting in real time  </br>
 
 ## Steps to Setup Voting App with Docker
-1. Clone the github repository
+1. Clone the github repository </br>
    git clone https://github.com/dockersamples/example-voting-app
 2. Run Voting App container
    cd example-voting-app
