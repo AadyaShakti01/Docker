@@ -28,7 +28,7 @@ A Node.js web app which shows the results of the voting in real time  </br>
 
 ## Steps to Setup Voting App with Docker
 1. Clone the github repository </br>
-   '''git clone https://github.com/dockersamples/example-voting-app'''  </br>
+   ```git clone https://github.com/dockersamples/example-voting-app```  </br>
 2. Run Voting App container  </br>
    '''cd example-voting-app''''  </br>
    docker compose up -d  </br>
