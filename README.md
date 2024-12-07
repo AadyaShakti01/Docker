@@ -28,33 +28,35 @@ A Node.js web app which shows the results of the voting in real time  </br>
 
 ## Steps to Setup Voting App with Docker
 1. Clone the github repository </br>
-   git clone https://github.com/dockersamples/example-voting-app
-2. Run Voting App container
-   cd example-voting-app
-   docker compose up -d
-3. Verify Running Containers
-   docker ps
+   '''git clone https://github.com/dockersamples/example-voting-app'''  </br>
+2. Run Voting App container  </br>
+   '''cd example-voting-app''''  </br>
+   docker compose up -d  </br>
+3. Verify Running Containers  </br>
+   '''docker ps'''  </br>
 4. Access the Voting App Console
-Voting Process:
+Voting Process:  </br>
 ![Docker 1](https://github.com/user-attachments/assets/8558e17a-5b52-4551-8a27-106607f1ddea)
-Access the Voting Interface:
-Open your browser and navigate to http://localhost:8080 
-Select an Option:
-You will see two options displayed (e.g., "Cats" and "Dogs").
-Click on your preferred option to cast your vote.
-Submit Your Vote:
-After selecting your choice, your vote is automatically registered.
+Access the Voting Interface:  </br>
+Open your browser and navigate to  </br>
+'''http://localhost:8080 ''' </br>
+Select an Option:  </br>
+You will see options displayed (e.g., "Cats" and "Dogs").  </br>
+Click on your preferred option to cast your vote.  </br>
+Submit Your Vote:  </br>
+After selecting your choice, your vote is automatically registered.  </br>
 
 Viewing Results:
 ![image](https://github.com/user-attachments/assets/9b2e99d8-c979-4a3a-b5d1-fa5e718ff202)
-Access the Results Interface:
-Open your browser and navigate to http://localhost:8081 
-Real-Time Updates:
-The results page displays the voting tally in real time, showing the count for each option.
-Refresh/Debugging:
-If results don't update as expected, ensure the app's services (vote, result, worker, redis, and db) are running properly.
+Access the Results Interface:  </br>
+Open your browser and navigate to  </br>
+'''http://localhost:8081 ''' </br>
+Real-Time Updates:  </br>
+The results page displays the voting tally in real time, showing the count for each option.  </br>
+Refresh/Debugging:  </br>
+If results don't update as expected, ensure the app's services (vote, result, worker, redis, and db) are running properly.  </br>
 
 ## Future Improvements
-1. Enhanced Features: Support for Multiple Votes - Allow users to vote more than once, with options to configure limits (e.g., per day or session).
-2. Security Improvements: User Authentication - Implement a login system to prevent duplicate or fraudulent voting.
-3. Analytics and Reporting - Detailed Metrics: Provide data analytics on voting trends 
+1. Enhanced Features: Support for Multiple Votes - Allow users to vote more than once, with options to configure limits (e.g., per day or session).  </br>
+2. Security Improvements: User Authentication - Implement a login system to prevent duplicate or fraudulent voting.  </br>
+3. Analytics and Reporting - Detailed Metrics: Provide data analytics on voting trends.  </br>
